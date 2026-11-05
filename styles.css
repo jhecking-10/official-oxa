@@ -1,6 +1,6 @@
 body {
   font-family: Haettenschweiler;
-  color: whitesmoke;
+  color: lightgray;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,12 @@ img {
   border: solid;
   border-radius: 15px;
   border-width: 1px;
-  border-color: whitesmoke;
+  border-color: lightgray;
+}
+
+hr {
+  border-style: line;
+  width: 100%;
 }
 
 #officialLogo {
